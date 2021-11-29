@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "class_library", "PrvaZadacapt2\class_library.csproj", "{2D5BF068-C6B1-4997-82D9-469F9020E9A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsolApp", "class library\ConsolApp.csproj", "{7319CA18-9DE5-4060-9926-739895C7E602}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2D5BF068-C6B1-4997-82D9-469F9020E9A2} = {2D5BF068-C6B1-4997-82D9-469F9020E9A2}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D5BF068-C6B1-4997-82D9-469F9020E9A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D5BF068-C6B1-4997-82D9-469F9020E9A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D5BF068-C6B1-4997-82D9-469F9020E9A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D5BF068-C6B1-4997-82D9-469F9020E9A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7319CA18-9DE5-4060-9926-739895C7E602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7319CA18-9DE5-4060-9926-739895C7E602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7319CA18-9DE5-4060-9926-739895C7E602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7319CA18-9DE5-4060-9926-739895C7E602}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B718578-89CA-421D-9FF8-7BCF01196371}
+	EndGlobalSection
+EndGlobal
